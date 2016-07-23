@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#0D9EFF"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="com.company.jeff.formjeff.MainActivity">
+
+    <TextView
+        android:text="@string/Formulario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formTitle"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Nombre"
+        android:textColorHint="#FFFFFF"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastName"
+        android:hint="Apellido"
+        android:textColorHint="#FFFFFF"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/birthDay"
+        android:hint="¿Cuándo naciste?"
+        android:textColorHint="#FFFFFF"
+        android:inputType="datetime"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:hint="Edad"
+        android:textColorHint="#FFFFFF"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Correo"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Contraseña"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repassword"
+        android:hint="Repite tu contraseña"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enviar"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:background="#2B84FF"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu información es valiosa para nosotros"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+</LinearLayout>
